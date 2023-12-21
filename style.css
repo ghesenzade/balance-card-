@@ -7,183 +7,76 @@ body {
     font-family: "DM Sans", sans-serif;
     font-size: 18px;
 }
-
+.flex{
+    display: flex;
+}
 .container {
+    padding: 100px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 40px;
-    margin-top: 90px;
-    
-    
+    height: 80vh;
+    gap: 30px;
 }
-.first {
+.balance {
     border: 1px solid orange;
     border-radius: 15px;
     background-color: orange;
-    width: 30%;
-    padding: 10px;  
-    display: flex;
-    float: right;
     color: #fff;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+    width: 25%;
 }
-.bas {
-    width: 300px;
-    margin-left: 30px;
-}
-.basliq {
-    margin-left: 10px;
-}
-.foto {
-    margin-left:200px ;
-}
-.cost {
-    margin-top: 50px;
-    margin-left: -100px;
-}
-
-.second {
-    border: 1px solid white;
-    border-radius: 15px;
-    background-color: #fff;
-    width: 31.5%;
-    margin-top: 20px;
-    height: 100%;
-}
-.week {
-    display: flex;
-    flex-direction: row;
-    margin: 20px; 
-    margin-top: 100px;
-}
-.borders:hover {
-    background-color:hsl(186, 34%, 60%) ;
-    
-}
-.orta {
-    display: flex;
+.info{
     flex-direction: column;
 }
 
-.monday {
-    margin: 20px;
-   
+.secondDiv {
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: #fff;
+    height: 100%;
+    text-align: center;
+    width: 28%;
 }
-.tue {
-    margin: 19px;
-    margin-top: 20px;
+.week{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
-.wed {
-    margin: 19px;
-    margin-top: 20px;
+.days{
+    flex-direction: column-reverse;
 }
-.thu {
-    margin: 20px;
-    margin-top: 20px;
+.borders{
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 5px;
+    width: 40px;
+    transition: .3s ease all;
 }
-.fri {
-    margin: 20px;
-    margin-top: 20px;
+.borders:hover {
+    background-color:hsl(186, 34%, 60%);
+    border: 1px solid hsl(186, 34%, 60%);
 }
-.sat {
-    margin: 20px;
-    margin-top: 20px;
 
-}
-.sun {
-    margin: 20px;
-    margin-top: 20px;
-}
 .line {
     width: 84%;
-    margin-top: -15px;
 }
-.finish {
-    display: flex;
-    flex-direction: row;
-    
+.footer{
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 28px;
 }
 .total {
-    margin: 33px;
-    margin-top: 10px;
     line-height: 20px;
 }
-.sonluq {
-    margin-top: 40px;
+.percentage {
     line-height: 10px;
 }
-.faiz {
-    margin-left: 150px;
-}
-.soz {
-    margin-left: 75px;
-}
-
-.one {
-    border: 1px solid orange;
-    width: 40px;
-    height: 40px;
-    margin-top:-25px;
-    margin-left: -59px;
-    background-color: orange;
-    border-radius: 5px;
-}
-.two {
-    border: 1px solid orange;
-    width: 40px;
-    margin-top: -45px;
-    margin-left: -52px;
-    background-color: orange;
-    height: 60px;
-    border-radius: 5px;
-}
-.three {
-    border: 1px solid orange;
-    width: 40px;
-    margin-top: -79px;
-    margin-left: -55px;
-    background-color: orange;
-    height: 95px;
-    border-radius: 5px;
-}
-.four {
-    border: 1px solid orange;
-    width: 40px;
-    margin-top: -37px;
-    margin-left: -54px;
-    background-color: orange;
-    height: 53px;
-    border-radius: 5px;
-}
-.five {
-    border: 1px solid orange;
-    width: 40px;
-    margin-top: -30px;
-    margin-left: -47px;
-    background-color: orange;
-    height: 45px;
-    border-radius: 5px;
-}
-.six {
-    border: 1px solid orange;
-    width: 40px;
-    margin-top: -65px;
-    margin-left: -53px;
-    background-color: orange;
-    height: 80px;
-    border-radius: 5px;
-}
-.seven {
-    border: 1px solid orange;
-    width: 40px;
-    margin-top: -32px;
-    margin-left: -55px;
-    background-color: orange;
-    height: 48px;
-    border-radius: 5px;
-}
-
 .attribution { 
     font-size: 18px; 
     text-align: center; 
